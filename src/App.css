@@ -1,0 +1,91 @@
+body {
+  background: rgb(0,91,92);
+  background: radial-gradient(circle, rgba(0,91,92,0.4948354341736695) 0%, rgba(253,187,45,0.052258403361344574) 0%, rgba(0,255,190,1) 82%);  text-align: center;
+  color:#282c34;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.data img {
+  background: rgb(203, 203, 203);
+  border-radius: 50%;
+  padding: 10px;
+  margin-top: -60px;
+}
+
+.form {
+  background: rgb(0,91,92);
+  background: radial-gradient(circle, rgba(0,91,92,0.4948354341736695) 0%, rgba(253,187,45,0.052258403361344574) 0%, rgba(0,255,190,1) 82%);
+}
+
+.header-div {
+  background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(37,145,251,0.98) 0.1%, rgba(0,7,128,1) 99.8% );
+  margin:20px;
+  padding:100px 0 0 0;
+} 
+
+.header-div div {
+  background:white;
+  text-align: center;
+  padding-bottom: 10px; 
+} 
+
+
+.weather-description h3 {
+  color:rgb(21, 28, 28);
+  font-weight: 400;  
+}
+
+.weather-description p {
+  color:rgb(21, 28, 28);
+  font-size:40px;
+  margin:0;
+}
+
+.title {
+  font-size:40px;
+  font-weight: 700;
+  margin-bottom: 0;
+}
+
+.location {
+  font-weight: 400;
+}
+
+
+input {
+  border-radius: 20px;
+  outline: none;
+  border: transparent 1px;
+  padding: 10px;
+  margin: 10px 5px;
+  font-weight:500;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+button {
+  border-radius: 20px;
+  outline: none;
+  border: transparent 1px;
+  color: white;
+  background:#282c34;
+  padding: 10px;
+  font-weight:500;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+@media screen and (min-width:768px) {
+  .weather-description {
+      display:flex;
+      justify-content:space-evenly;
+      margin-bottom: 50px;
+      margin-top:30px;
+      text-align: center;      
+  }
+  .header-div {
+    margin: 20px 90px 20px 90px;
+  }
+  section {
+    text-align: center;
+  }
+}

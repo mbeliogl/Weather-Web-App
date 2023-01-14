@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "%7Bmbeliogl%7D.github.io/%7BWeather-Web-App%7D/precache-manifest.1271bc18565ec567403128bc26b2c616.js"
+  "/Weather-Web-App/precache-manifest.a8601c5c26d220aa99beb537f150cb94.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("%7Bmbeliogl%7D.github.io/%7BWeather-Web-App%7D/index.html", {
+workbox.routing.registerNavigationRoute("/Weather-Web-App/index.html", {
   
   blacklist: [/^\/_/,/\/[^/]+\.[^/]+$/],
 });
